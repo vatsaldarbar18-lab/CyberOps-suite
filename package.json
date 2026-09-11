@@ -1,0 +1,30 @@
+{
+  "name": "cyberops-suite",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Safe full-stack cybersecurity operations dashboard for college SOC demonstrations.",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "dev:client": "vite --host 127.0.0.1",
+    "dev:server": "node server/server.js",
+    "build": "vite build",
+    "start": "node server/server.js",
+    "preview": "vite preview --host 127.0.0.1",
+    "admin:create": "node scripts/create-admin.mjs"
+  },
+  "dependencies": {
+    "framer-motion": "^12.23.22",
+    "lucide-react": "^0.562.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "react-router-dom": "^7.10.1",
+    "recharts": "^3.6.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.18",
+    "@vitejs/plugin-react": "^5.1.2",
+    "tailwindcss": "^4.1.18",
+    "vite": "^7.3.0"
+  }
+}
